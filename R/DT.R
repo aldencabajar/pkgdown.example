@@ -9,5 +9,4 @@
 #' datatable(iris2, filter = 'top', options = list(
 #'   pageLength = 5, autoWidth = TRUE
 #' ))
-#'
 datatable <- DT::datatable
