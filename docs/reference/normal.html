@@ -83,7 +83,7 @@
         
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>require</span>(<span class='no'>graphics</span>)
+    <div class="examples"><pre><div class='input'><span class='fu'>require</span>(<span class='no'>graphics</span>)
 
 <span class='fu'>dnorm</span>(<span class='fl'>0</span>) <span class='kw'>==</span> <span class='fl'>1</span>/<span class='fu'>sqrt</span>(<span class='fl'>2</span>*<span class='no'>pi</span>)</div><div class='output co'>#&gt; [1] TRUE</div><div class='input'><span class='fu'>dnorm</span>(<span class='fl'>1</span>) <span class='kw'>==</span> <span class='fu'>exp</span>(-<span class='fl'>1</span>/<span class='fl'>2</span>)/<span class='fu'>sqrt</span>(<span class='fl'>2</span>*<span class='no'>pi</span>)</div><div class='output co'>#&gt; [1] TRUE</div><div class='input'><span class='fu'>dnorm</span>(<span class='fl'>1</span>) <span class='kw'>==</span> <span class='fl'>1</span>/<span class='fu'>sqrt</span>(<span class='fl'>2</span>*<span class='no'>pi</span>*<span class='fu'>exp</span>(<span class='fl'>1</span>))</div><div class='output co'>#&gt; [1] TRUE</div><div class='input'>
 <span class='co'>## Using "log = TRUE" for an extended range :</span>
@@ -103,7 +103,8 @@
 <span class='no'>erfc</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>x</span>) <span class='fl'>2</span> * <span class='fu'>pnorm</span>(<span class='no'>x</span> * <span class='fu'>sqrt</span>(<span class='fl'>2</span>), <span class='kw'>lower</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)
 <span class='co'>## and the inverses</span>
 <span class='no'>erfinv</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span> (<span class='no'>x</span>) <span class='fu'>qnorm</span>((<span class='fl'>1</span> + <span class='no'>x</span>)/<span class='fl'>2</span>)/<span class='fu'>sqrt</span>(<span class='fl'>2</span>)
-<span class='no'>erfcinv</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span> (<span class='no'>x</span>) <span class='fu'>qnorm</span>(<span class='no'>x</span>/<span class='fl'>2</span>, <span class='kw'>lower</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)/<span class='fu'>sqrt</span>(<span class='fl'>2</span>)</div></pre>
+<span class='no'>erfcinv</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span> (<span class='no'>x</span>) <span class='fu'>qnorm</span>(<span class='no'>x</span>/<span class='fl'>2</span>, <span class='kw'>lower</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)/<span class='fu'>sqrt</span>(<span class='fl'>2</span>)</div></pre></div>
+    
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
